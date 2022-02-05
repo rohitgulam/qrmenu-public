@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="../assets/qr-code-1.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/qr-code-1.svg" type="image/x-icon">
     <title>QR Menu - Free Digital Menus For Restaurants</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,7 +18,7 @@
 </head>
 <body>
     <div class="logo">
-        <img src="../assets/qr-code-1.svg" alt="QR Menu logo">
+        <img src="assets/qr-code-1.svg" alt="QR Menu logo">
         <h1 class="tag"> <span class="green">qr</span>menu</h1>
     </div>
     <h2 class="tagline">Digital Menus for Restaurants</h2>
