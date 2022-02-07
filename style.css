@@ -51,12 +51,12 @@ body{
     width:100%;
 }
 
-.clear #mc-embedded-subscribe{
+#mc_embed_signup button{
     background: #8ac926;
     padding: 0 40px;
 }
 
-.clear #mc-embedded-subscribe:hover{
+#mc_embed_signup button:hover{
     background: #77C200;
 }
 
@@ -64,7 +64,9 @@ body{
     font-size: 20px;
 }
 
-#mc_embed_signup #mce-EMAIL, .clear #mc-embedded-subscribe{
+
+
+#mc_embed_signup #mce-EMAIL, #mc_embed_signup button{
     font-size: 18px;
     height: 40px;
     border-radius: 4px;
