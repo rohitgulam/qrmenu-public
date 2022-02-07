@@ -43,20 +43,18 @@ body{
 }
 
 /* Mailchimp input styles */
-
 #mc_embed_signup{
     background:#fff; 
     clear:left; 
-    font:14px Helvetica,Arial,sans-serif; 
-    width:100%;
+    width:90%;
 }
 
-#mc_embed_signup button{
+#mc_embed_signup #mc-embedded-subscribe-form .clear.foot #mc-embedded-subscribe{
     background: #8ac926;
     padding: 0 40px;
 }
 
-#mc_embed_signup button:hover{
+#mc_embed_signup #mc-embedded-subscribe-form .clear.foot #mc-embedded-subscribe:hover{
     background: #77C200;
 }
 
@@ -64,6 +62,11 @@ body{
     font-size: 20px;
 }
 
+#mc_embed_signup #mce-EMAIL, #mc_embed_signup #mc-embedded-subscribe-form .clear.foot #mc-embedded-subscribe{
+    font-size: 18px;
+    height: 40px;
+    border-radius: 4px;
+}
 
 
 #mc_embed_signup #mce-EMAIL, #mc_embed_signup button{
