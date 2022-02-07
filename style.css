@@ -42,6 +42,33 @@ body{
     font-size: 1.1em;
 }
 
+/* Mailchimp input styles */
+
+#mc_embed_signup{
+    background:#fff; 
+    clear:left; 
+    font:14px Helvetica,Arial,sans-serif; 
+    width:100%;
+}
+
+.clear #mc-embedded-subscribe{
+    background: #8ac926;
+    padding: 0 40px;
+}
+
+.clear #mc-embedded-subscribe:hover{
+    background: #77C200;
+}
+
+#mc_embed_signup label{
+    font-size: 20px;
+}
+
+#mc_embed_signup #mce-EMAIL, .clear #mc-embedded-subscribe{
+    font-size: 18px;
+    height: 40px;
+    border-radius: 4px;
+}
 
 @media (min-width: 769px) {
     .logo img{
