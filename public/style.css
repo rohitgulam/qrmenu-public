@@ -233,6 +233,13 @@ input[type=text], input[type=password], input[type=number]{
     margin: 10px auto;
 }
 
+.menu-preview .category-heading{
+    font-size: 24px;
+    text-align: center;
+    text-decoration: underline;
+    color: #111;
+}
+
 .menu-food-title, .menu-food-price{
     color: #808080;
 }
@@ -251,6 +258,11 @@ input[type=text], input[type=password], input[type=number]{
 .menu-edit{
     padding: 0 10px;
 }
+
+.menu-edit .category-heading{
+    font-size: 16px;
+}
+
 
 
 .menu-edit .name-price{
