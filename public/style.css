@@ -233,7 +233,7 @@ input[type=text], input[type=password], input[type=number]{
     margin: 10px auto;
 }
 
-.menu-preview .category-heading{
+.category-heading{
     font-size: 24px;
     text-align: center;
     text-decoration: underline;
@@ -259,9 +259,9 @@ input[type=text], input[type=password], input[type=number]{
     padding: 0 10px;
 }
 
-.menu-edit .category-heading{
+/* .menu-edit .category-heading{
     font-size: 16px;
-}
+} */
 
 
 
