@@ -14,7 +14,7 @@
                     <h5 class="category-heading">
                         <?php echo $category['food_category'] ?>
                     </h5>
-                    <?php $foods = fetchItemsViaCategories($pdo, $_SESSION['userid'], $category['food_category']); ?>
+                    <?php $foods = fetchItemsViaCategories($pdo, $_GET["rest_id"], $category['food_category']); ?>
                     <?php foreach ($foods as $food) { ?>
                         <div class="menu-area">
                             <div class="name-price">

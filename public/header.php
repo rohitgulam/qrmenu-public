@@ -2,8 +2,8 @@
     session_start();
     require_once "../includes/dbh.inc.php";
     require_once "../includes/functions.inc.php";
-    fetchItems($pdo, $_SESSION['userid']);
-    $categories = getAllCategories($pdo, $_SESSION['userid']);
+    fetchItems($pdo, $_GET["rest_id"]);
+    $categories = getAllCategories($pdo, $_GET["rest_id"]);
     $userDetails = fetchAccountDetails($conn, $_GET["rest_id"]);
 ?>
 
