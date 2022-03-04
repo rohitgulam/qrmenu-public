@@ -11,7 +11,7 @@
                 </div>
 
                 <?php foreach($categories as $category) {?>
-                    <h5 class="category-heading">
+                    <h5 style=" font-size: 24px; text-align: center; text-decoration: underline; color: #111;" class="category-heading">
                         <?php echo $category['food_category'] ?>
                     </h5>
                     <?php $foods = fetchItemsViaCategories($pdo, $_GET["rest_id"], $category['food_category']); ?>
