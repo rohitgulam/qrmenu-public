@@ -233,7 +233,7 @@ input[type=text], input[type=password], input[type=number]{
     margin: 10px auto;
 }
 
-.category-heading{
+.menu-preview .category-heading{
     font-size: 24px;
     text-align: center;
     text-decoration: underline;
