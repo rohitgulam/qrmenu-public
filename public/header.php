@@ -2,7 +2,8 @@
     session_start();
     require_once "../includes/dbh.inc.php";
     require_once "../includes/functions.inc.php";
-    $foods = fetchItems($pdo, $_GET["rest_id"]);
+    fetchItems($pdo, $_SESSION['userid']);
+    $categories = getAllCategories($pdo, $_SESSION['userid']);
     $userDetails = fetchAccountDetails($conn, $_GET["rest_id"]);
 ?>
 
