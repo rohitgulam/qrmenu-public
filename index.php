@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="assets/qr-code-1.svg" type="image/x-icon">
     <link rel="canonical" href="https://itsqrmenu.com" />
+    <meta name="description" content="">
     <title>QR Menu - Free Digital Menus For Restaurants</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,6 +29,12 @@
     
 
 </head>
+    <nav class="nav">
+        <div>
+            <img class="logo" src="" alt="itsqrmenu logo">
+            <button class="btn-button" disabled="disabled"> Sign Up</button>
+        </div>
+    </nav>
 <body>
 
 </body>
