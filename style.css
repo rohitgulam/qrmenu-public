@@ -9,6 +9,7 @@
 
 :root{
     --primary-color: #8ac926;
+    --disabled: #44660d;
     --text: #3C434A;
 }
 
@@ -23,6 +24,11 @@
     font-size: 1.1rem;
     font-weight: 600; 
     text-transform: uppercase;
+}
+
+.btn-button:disabled{
+    background-color: var(--disabled);
+    cursor: not-allowed;
 }
 
 
