@@ -2,97 +2,38 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    color: #3C434A;
     /* font-family: 'Montserrat', sans-serif;
     font-family: 'IBM Plex Sans', sans-serif; */
     font-family: 'IBM Plex Mono', monospace;
 }
 
-body{
+:root{
+    --primary-color: #8ac926;
+    --text: #3C434A;
+}
+
+.nav{
+    height: 9vh;
+    border-bottom: 1px solid #999;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 100vh;
 }
 
-.logo{
+.nav > div{
+    width: 90%;
+    margin: 0 auto; 
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
 }
 
-.logo img{
-    height: 100px;
-    width: 100px;
-}
-
-.logo .tag{
-    font-size: 4em;
-    margin-left: 10px;
-    color: rgb(12, 11, 11);
-}
-
-.logo .tag span{
-    color: #8ac926;
-}
-
-.tagline{
-    margin-top: 20px;
-    font-size: 1.1em;
-}
-
-/* Mailchimp input styles */
-#mc_embed_signup{
-    background:#fff; 
-    clear:left; 
-    width:90%;
-}
-
-#mc_embed_signup #mc-embedded-subscribe-form .clear.foot #mc-embedded-subscribe{
-    background: #8ac926;
-    padding: 0 40px;
-}
-
-#mc_embed_signup #mc-embedded-subscribe-form .clear.foot #mc-embedded-subscribe:hover{
-    background: #77C200;
-}
-
-#mc_embed_signup label{
-    font-size: 20px;
-}
-
-#mc_embed_signup #mce-EMAIL, #mc_embed_signup #mc-embedded-subscribe-form .clear.foot #mc-embedded-subscribe{
-    font-size: 18px;
-    height: 40px;
+.btn-button{
+    background-color: var(--primary-color);
+    padding: 12px 24px;
+    border: none;
     border-radius: 4px;
-}
-
-
-#mc_embed_signup #mce-EMAIL, #mc_embed_signup button{
-    font-size: 18px;
-    height: 40px;
-    border-radius: 4px;
-}
-
-@media (min-width: 769px) {
-    .logo img{
-        height: 180px;
-        width: 180px;
-    }
-    
-    .logo .tag{
-        font-size: 9em;
-        margin-left: 10px;
-        color: rgb(12, 11, 11);
-    }
-    
-    .logo .tag span{
-        color: #8ac926;
-    }
-    
-    .tagline{
-        margin-top: 20px;
-        font-size: 2.2em;
-    }
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 600; 
+    text-transform: uppercase;
 }
