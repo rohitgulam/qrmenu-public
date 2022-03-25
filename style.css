@@ -12,6 +12,20 @@
     --text: #3C434A;
 }
 
+/* Components */
+
+.btn-button{
+    background-color: var(--primary-color);
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 600; 
+    text-transform: uppercase;
+}
+
+
 .nav{
     height: 9vh;
     border-bottom: 1px solid #999;
@@ -27,13 +41,3 @@
     align-items: center;
 }
 
-.btn-button{
-    background-color: var(--primary-color);
-    padding: 12px 24px;
-    border: none;
-    border-radius: 4px;
-    color: #fff;
-    font-size: 1.1rem;
-    font-weight: 600; 
-    text-transform: uppercase;
-}
