@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="device.css">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="assets/qr-code-1.svg" type="image/x-icon">
     <link rel="canonical" href="https://itsqrmenu.com" />
@@ -29,13 +30,46 @@
     
 
 </head>
+<body>
     <nav class="nav">
         <div>
             <img class="logo" src="" alt="itsqrmenu logo">
-            <button class="btn-button" disabled="disabled"> Sign Up</button>
+            <a href="#" class="btn"> Sign Up</a>
         </div>
     </nav>
-<body>
+    <main>
+        <div class="hero-desc">
+            <h1>Upgrade your resturant with a <span class="underline">QR Menu</span></h1>
+            <p>itsqrmenu allows you to create a QR menu for your restaurant that can be accessed by your customers at their fingertips.</p>
 
+            <a href="#" class="btn">Create my QR Menu</a>
+
+        </div>
+
+        <div class="device">
+            <div class="marvel-device iphone-x">
+                <div class="notch">
+                    <div class="camera"></div>
+                    <div class="speaker"></div>
+                </div>
+                <div class="top-bar"></div>
+                <div class="sleep"></div>
+                <div class="bottom-bar"></div>
+                <div class="volume"></div>
+                <div class="overflow">
+                    <div class="shadow shadow--tr"></div>
+                    <div class="shadow shadow--tl"></div>
+                    <div class="shadow shadow--br"></div>
+                    <div class="shadow shadow--bl"></div>
+                </div>
+                <div class="inner-shadow"></div>
+                <div class="screen">
+                    <div>
+                        <h1>Test</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
