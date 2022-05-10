@@ -51,6 +51,10 @@
     align-items: center;
 }
 
+main {
+    padding: 0 20px;
+}
+
 
 /* Hero */
 
@@ -58,8 +62,9 @@
     width: 90%;
     margin: 10px auto;
     display: flex;
+    min-height: 320px;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     text-align: center;
 }
@@ -84,10 +89,19 @@
     left: 0;
 }
 
+
 .hero-desc p{
     margin: 10px 0;
 }
 
+.hero-desc #main-create-btn{
+    margin-top: 30px;
+}
+
+.hero-desc .small{
+    font-size: 0.8rem;
+    margin-top: 2px;
+}
 
 .device{
     width: 100%;
@@ -102,4 +116,90 @@
 
 .marvel-device.iphone-x .notch{
     left: 88px;
+}
+
+.marvel-device.iphone-x .screen{
+    background-color: #f9f9f9;
+}
+
+.marvel-device.iphone-x .screen .display{
+    padding: 30px 4px; 
+}
+
+.marvel-device.iphone-x .screen .display .banner-area{
+    background-color: #fff;
+    padding: 30px 20px;
+}
+
+.marvel-device.iphone-x .screen .display .banner-area .restaurant-name{
+    text-align: center;
+}
+
+.marvel-device.iphone-x .screen .display .menu-area{
+    padding: 20px 30px;
+}
+
+.marvel-device.iphone-x .screen .display .name-price{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.marvel-device.iphone-x .screen .display .menu-preview{
+    width: 100%;
+    margin: 10px auto;
+}
+
+.marvel-device.iphone-x .screen .display .menu-preview .category-heading{
+    font-size: 24px;
+    text-align: center;
+    text-decoration: underline;
+    color: #111;
+}
+
+.marvel-device.iphone-x .screen .display .menu-food-title, .menu-food-price{
+    color: #808080;
+}
+
+.marvel-device.iphone-x .screen .display .menu-food-price{
+    font-weight: 900;
+}
+
+.marvel-device.iphone-x .screen .display .menu-food-desc{
+    color: #808080e8;
+    padding: 5px 0;
+}
+
+/* Features */
+.features-container{
+    width: 94%;
+    margin: 0 auto;
+}
+
+.features{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.features-grid{
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+}
+
+.feature-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-item h3{
+    text-align: center;
+}
+
+.feature-item i{
+    font-size: 2rem;
 }
