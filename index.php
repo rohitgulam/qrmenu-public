@@ -50,44 +50,6 @@
             <p class="small">It's free</p>
 
         </div>
-
-        <div class="device">
-            <div class="marvel-device iphone-x">
-                <div class="notch">
-                    <div class="camera"></div>
-                    <div class="speaker"></div>
-                </div>
-                <div class="top-bar"></div>
-                <div class="sleep"></div>
-                <div class="bottom-bar"></div>
-                <div class="volume"></div>
-                <div class="overflow">
-                    <div class="shadow shadow--tr"></div>
-                    <div class="shadow shadow--tl"></div>
-                    <div class="shadow shadow--br"></div>
-                    <div class="shadow shadow--bl"></div>
-                </div>
-                <div class="inner-shadow"></div>
-                <div class="screen">
-                    <div class="display" >
-                        <div class="menu-preview">
-                            <div class="banner-area">
-                                <div class="img"></div>
-                                <h1 class="restaurant-name">Sub-Zero Ice Creams</h1>
-                            </div>
-                            <div class="menu-area">
-                                <div class="name-price">
-                                    <h3 class="menu-food-title">Vanilla Ice Cream</h3>
-                                    <p class="menu-food-price">Tsh 3000</p>
-                                </div>
-                                <p class="menu-food-desc"> Good ol' vanilla ice cream</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
         <!-- <div class="features">
             <h2>The old way of menus</h2>
             <ul>
