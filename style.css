@@ -13,6 +13,10 @@
     --text: #3C434A;
 }
 
+p{
+    color: var(--text);
+}
+
 /* Components */
 
 .btn{
@@ -25,6 +29,11 @@
     font-weight: 600; 
     text-transform: uppercase;
     text-decoration: none;
+    transition: background-color 200ms ease-in-out;
+}
+
+.btn:hover{
+    background-color: var(--disabled);
 }
 
 .btn.disabled{
@@ -110,62 +119,61 @@ main {
     align-items: center;
 }
 
-.marvel-device.iphone-x {
-    transform: scale(0.8);
+.device{
+    width: 320px;
+    margin: 10px auto;
+    border: 2px solid black;
+    border-radius: 4px;
 }
 
-.marvel-device.iphone-x .notch{
-    left: 88px;
-}
-
-.marvel-device.iphone-x .screen{
+.device .screen{
     background-color: #f9f9f9;
 }
 
-.marvel-device.iphone-x .screen .display{
+.device .screen .display{
     padding: 30px 4px; 
 }
 
-.marvel-device.iphone-x .screen .display .banner-area{
+.device .screen .display .banner-area{
     background-color: #fff;
     padding: 30px 20px;
 }
 
-.marvel-device.iphone-x .screen .display .banner-area .restaurant-name{
+.device .screen .display .banner-area .restaurant-name{
     text-align: center;
 }
 
-.marvel-device.iphone-x .screen .display .menu-area{
+.device .screen .display .menu-area{
     padding: 20px 30px;
 }
 
-.marvel-device.iphone-x .screen .display .name-price{
+.device .screen .display .name-price{
     display: flex;
     justify-content: space-between;
 
 }
 
-.marvel-device.iphone-x .screen .display .menu-preview{
+.device .screen .display .menu-preview{
     width: 100%;
     margin: 10px auto;
 }
 
-.marvel-device.iphone-x .screen .display .menu-preview .category-heading{
+.device .screen .display .menu-preview .category-heading{
     font-size: 24px;
     text-align: center;
     text-decoration: underline;
     color: #111;
 }
 
-.marvel-device.iphone-x .screen .display .menu-food-title, .menu-food-price{
+.device .screen .display .menu-food-title, .menu-food-price{
     color: #808080;
 }
 
-.marvel-device.iphone-x .screen .display .menu-food-price{
+.device .screen .display .menu-food-price{
     font-weight: 900;
 }
 
-.marvel-device.iphone-x .screen .display .menu-food-desc{
+.device .screen .display .menu-food-desc{
     color: #808080e8;
     padding: 5px 0;
 }
@@ -184,6 +192,7 @@ main {
 }
 
 .features-grid{
+    margin: 1.4rem 0;
     display:grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 10px;
@@ -192,14 +201,50 @@ main {
 .feature-item{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
+    padding: 0 10px;
     align-items: center;
+    border-radius: 4px;
+    height: 400px;
+    background: #c8c8db63;
 }
 
-.feature-item h3{
+.feature-item{
     text-align: center;
 }
 
 .feature-item i{
     font-size: 2rem;
 }
+
+span.icon{
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 20px;
+}
+
+span.icon i{
+    color: var(--primary-color);
+}
+
+.features-container .non-features li {
+    padding: 3px 0;
+}
+
+
+
+
+
+footer{
+    /* position: fixed;
+    bottom: 0; */
+    height: 9vh;
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Footer */
