@@ -41,4 +41,4 @@
             <a href="#" class="btn">Join</a>
         </div>
     </nav>
-    <main>
+    
