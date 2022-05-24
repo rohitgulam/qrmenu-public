@@ -37,7 +37,9 @@
 <body>
     <nav class="nav">
         <div>
-            <img class="logo" src="assets/itsqrmenu.svg" alt="itsqrmenu logo" width="160px">
+            <a href="index.php">
+                <img class="logo" src="assets/itsqrmenu.svg" alt="itsqrmenu logo" width="160px">
+            </a>
             <a href="register.php" class="btn">Join</a>
         </div>
     </nav>

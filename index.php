@@ -121,7 +121,7 @@
         <div class="create-menu-container">
             <div class="create-menu-item">
                 <h3>1. Create an account</h3>
-                <p><a href="/register.php" class="link" >Click here</a> to create an account.</p>
+                <p><a href="register.php" class="link" >Click here</a> to create an account.</p>
                 <img src="assets/create-account.webp" alt="Creating an account on itsqrmenu">
             </div>
             <div class="create-menu-item">
