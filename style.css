@@ -457,8 +457,20 @@ footer{
         border: 2px solid black;
         border-radius: 4px;
     }
-    
-    
+
+    /* Features */
+.features-container{
+    width: 60%;
+    margin: 0 auto 50px auto;
+}
+
+.features-grid{
+    margin: 1.4rem 0;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+} 
+
 }
 
 
