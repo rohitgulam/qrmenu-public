@@ -135,15 +135,12 @@ main {
 }
 
 .device{
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.device{
     width: 320px;
-    margin: 10px auto;
+    margin: 10px auto 50px auto;
     border: 2px solid black;
     border-radius: 4px;
 }
@@ -410,6 +407,8 @@ footer{
 
 @media  (min-width: 769px) {
     /* Home page */
+
+    /* Hero Desc */
     .hero-desc{
         justify-content: center;
     }
@@ -446,6 +445,20 @@ footer{
     .fields .intro{
         padding: 0;
     }
+
+    /* Device */
+    .device{
+        /* width: 100%; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+        margin: 10px auto 50px auto;
+        border: 2px solid black;
+        border-radius: 4px;
+    }
+    
+    
 }
 
 
