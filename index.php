@@ -53,18 +53,6 @@
     </div>
 
     <div class="features-container">
-        <div class="non-features">
-            <h2>The old way of menus</h2>
-            <ul>
-                <li>You print out your menu</li>
-                <li>You need to update it, so you print it again</li>
-                <li>You hand the same menus to different customers everyday</li>
-                <li>Unfortunately, a customer has COVID and touches your menu which is then touched by your waiters and other customers</li>
-                <li>Due to this, a lot of your customers get COVID too</li>
-                <li>People hear about this and stop coming to you restaurant</li>
-                <li>Sales decrease forcing you to close down your restaurant</li>
-            </ul>
-        </div>
         <div class="features">
         <h2>The new way of menus</h2>
             <div class="features-grid" >
