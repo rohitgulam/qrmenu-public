@@ -404,9 +404,39 @@ footer{
 /* Footer */
 
 
+
+
 /* Laptops */
 
 @media  (min-width: 769px) {
+    /* Home page */
+    .hero-desc{
+        justify-content: center;
+    }
+    
+    .hero-desc h1{
+        margin-bottom: 0;
+    }
+
+    .hero-desc h1 .underline:after{
+        width: 80%;
+        left: 15px;
+    }
+    
+    
+    .hero-desc p{
+        margin: 10px 0;
+    }
+    
+    .hero-desc #main-create-btn{
+        margin-top: 30px;
+    }
+    
+    .hero-desc .small{
+        font-size: 0.8rem;
+        margin-top: 2px;
+    }
+
     /* Register Page */
     .fields{
         width: 700px;
