@@ -111,7 +111,7 @@
                 <span class="icon-rounded"><i class="fa-solid fa-pen"></i></span>
                 <div class="desc">
                     <h3>Unlimited Updates</h3>
-                    <p>Update your foods as much as you want</p>
+                    <p>Update your foods as much as you want without limit.</p>
                 </div>
             </div>
         </div>
