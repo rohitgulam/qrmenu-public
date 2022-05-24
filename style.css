@@ -410,6 +410,8 @@ footer{
     /* Hero Desc */
     .hero-desc{
         justify-content: center;
+        min-height: unset;
+        margin-top: 60px;
     }
     
     .hero-desc h1{
