@@ -303,9 +303,20 @@ span.icon-rounded i{
 
 .core-features .core-features-container .core-feature{}
 
+.create-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.create-menu-item{
+    margin: 20px 0;
+}
+
 .create-menu-item img{
     width: 100%;
-    box-shadow: 4px 4px rgba(124, 123, 123, 0.822);
+    box-shadow: 2px 2px rgba(124, 123, 123, 0.822);
     border-radius: 6px;
 }
 

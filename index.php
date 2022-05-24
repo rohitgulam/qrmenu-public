@@ -147,6 +147,7 @@
                 <img src="assets/print-qrcodes.webp" alt="Printing your QR codes">
             </div>
         </div>
+        <a href="register.php" id="main-create-btn" class="btn">Create My QR Menu</a>
     </div>
 </main>
 <?php require "footer.php" ?>
